@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('../img/img-urbano-entrenamiento.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.container-ppal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: transparent
+}
+
+fieldset {
+    background-color: black;
+    opacity: 0.7;
+    backdrop-filter: blur(15px);
+    color: white;
+    border-radius: 10%;
+    padding: 20px 50px 20px 50px;
+    width: 100%;
+    text-align: center;
+    border: transparent
+}
+
+.fieldset-2 {
+    padding: 30px 124px;
+}
+
+.fieldset-3 {
+    padding: 30px 70px;
+}
+
+legend {
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border-bottom: solid 2px red;
+   
+}
+
+label {
+    opacity: 1.5;
+    cursor: pointer;
+}
+
+textarea {
+    opacity: 1.5;
+
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    margin-bottom: 5px;
+    color: white;
+    width: 70%;
+    padding-bottom: 3px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+}
+input {
+    text-align: left;
+}
+
+.input-telefono {
+    width: 100%;
+}
+
+.input-correo {
+    width: 100%;
+}
+
+.input-genero {
+    width: auto;
+}
+
+.input-actividades {
+    width: auto;
+    margin: 10px 5px;
+}
+
+.input-checkbox-final {
+    width: auto;
+}
+
+.input-button-1{
+    width: auto;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: rgb(212, 212, 212);
+    opacity: 0.8;
+    color: black;
+}
+
+select {
+    padding: 0 25px;
+    width: 70%;
+    text-align: left;
+    padding: 5px 0;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 1px red;
+    background-color: transparent;
+    color: rgb(149, 149, 149) !important;
+}
+
+.container-genero {
+    margin-top: 10px;
+}
+
+.container-checkbox-final {
+    position: absolute;
+    left: 35%;
+}
+
+.container-button {
+    position: absolute;
+    left: 42.5%;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.text1-container-3 {
+    margin-bottom: 10px;
+}

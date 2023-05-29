@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css"> 
+    <!-- <link rel="stylesheet" href="css/estilos-urbano.css"> -->
+    <!-- <link rel="stylesheet" href="css/estilos-futuro.css"> -->
+    <title>Franco Hidalgo - Afiliación </title>
+</head>
+
+<body>
+    <header>
+        <h1>Vení al Gym! 💪</h1>
+    </header>
+
+ <section class="container-ppal">
+    <div class="container-1">
+        <form action="#" method="post">
+            <fieldset>
+                <legend>🙋 Datos Personales 👀</legend>
+                    <div>
+                        <p>
+                            <label for="nombre">Nombre:*</label>
+                        </p>
+                        <input class="input-width" type="text" name="nombre-label" id="nombre" required>
+                    </div>
+
+                    <div>
+                        <p>
+                            <label for="apellido">Apellido:*</label>
+                        </p> 
+                        <input class="input-width" type="text" name="apellido-label" id="apellido" required>
+                    </div> 
+
+                    <div>
+                         <p>
+                            <label for="documento">Documento:*</label>
+                         </p>
+                        <input class="input-width" type="text" name="documento-label" id="documento" required>    
+                    </div>
+
+                    <div class="container-nacionalidad">
+                        <p>
+                            <label  for="menu">Nacionalidad:*</label>
+                        </p> 
+                            <select name="menu-label" id="menu">
+                                <option selected>-Seleccionar-</option>
+                                <option value="argentina">Argentina</option>
+                                <option value="brasileña">Brasileña</option>
+                                <option value="uruguaya">Uruguaya</option>
+                                <option value="otra">Otra</option>
+                            </select>
+                    </div>                    
+               
+                     <div class="container-textarea">
+                        <p>
+                            <label for="texto">Contanos un poco de vos...</label>
+                        </p> 
+                            <textarea name="texto" id="texto" rows="10" cols="45"></textarea>
+                    </div>
+
+                    <div class="container-genero">
+                        <p class="text-genero">
+                            Sexo:*
+                        </p> 
+                            <label for="mujer"></label>
+                            <input class="input-genero" type="radio" name="genero" id="mujer" value="mujer" required> 
+                            Femenino
+
+                            <label for="hombre"></label>
+                            <input class="input-genero" type="radio" name="genero" id="hombre" value="hombre" required> 
+                            Masculino
+
+                            <label for="otro"></label>
+                            <input class="input-genero" type="radio" name="genero" id="otro" value="otro" required> 
+                            Otro
+                    </div>
+            </fieldset> 
+        </form>
+    </div>
+
+    <div class="container-2">
+        <form action="#">
+            <fieldset class="fieldset-2">
+                <legend>📱 Datos de Contacto 📩</legend>
+                    <div>
+                        <p>
+                            <label for="telefono">Teléfono:</label>
+                        </p> 
+                            <input class="input-telefono" type="text" name="telefono" id="telefono" placeholder="Código de área y número">
+                    </div> 
+
+                    <div>
+                        <p>
+                            <label for="email">Dirección de correo electrónico*</label>
+
+                        </p>
+                            <input class="input-correo" type="email" name="email" id="email" placeholder="ej. mail@gmail.com" required autocomplete= "off">    
+                    </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="container-3">
+            <fieldset class="fieldset-3">
+                <legend>🚴Actividades🤸</legend>
+
+                        <p class="text1-container-3">Por favor, indicá cuáles actividades te interesan.</p> 
+                        <p class="text2-container-3">Sede Palermo:</p>
+                
+                    <div class="act-1">
+                        <label for="basquet"></label>
+                        Básquet
+                        <input class="input-actividades" type="checkbox" name="act-1" value="basquet" id="basquet">
+                        
+
+                        <label for="boxeo"></label>
+                        Boxeo
+                        <input class="input-actividades" type="checkbox" name="act-2" value="boxeo" id="boxeo">
+                        
+                        
+                        <label for="futbol"></label>
+                        Fútbol
+                        <input class="input-actividades" type="checkbox" name="act-3" value="futbol" id="futbol">
+                        
+                        
+                        <label for="tenis"></label>
+                        Tenis
+                        <input class="input-actividades" type="checkbox" name="act-4" value="tenis" id="tenis">
+                    </div>    
+
+                        <p class="text3-container-3">Sede Rosario:</p>
+
+                    <div class="act-1">    
+                        <label for="basquet-rosario"></label>
+                        Básquet
+                        <input class="input-actividades" type="checkbox" name="act-1" value="basquet" id="basquet-rosario">
+                        
+
+                        <label for="futbol-rosario"></label>
+                        Fútbol
+                        <input class="input-actividades" type="checkbox" name="act-2" value="futbol" id="futbol-rosario">
+                        
+
+                        <label for="rugby"></label>
+                        Rugby
+                        <input class="input-actividades" type="checkbox" name="act-3" value="rugby" id="rugby">
+                        
+
+                        <label for="voley"></label>
+                        Voley
+                        <input class="input-actividades" type="checkbox" name="act-4" value="voley" id="voley">
+                    </div>
+                        
+            </fieldset>
+    </div>
+
+    <div class="container-4">
+        <div class="container-checkbox-final">
+            <form action="#">
+                <p>
+                    <label for="terminos"></label>
+                    <input class="input-checkbox-final" type="checkbox" name="terminos" value="terminos" id="terminos"> 
+                    Acepto las condiciones*
+                </p> 
+                <p>
+                    <label for="notificaciones"></label>
+                    <input class="input-checkbox-final" type="checkbox" name="novedades" value="notificaciones" id="notificaciones"> 
+                    Deseo recibir novedades
+                </p> 
+                <p>*: campo obligatorio.</p>
+            </form>
+        </div>
+    </div>
+
+    <div class="button">
+        <div class="container-button">
+        <form action="#" method="post">
+                <input class="input-button-1" type="submit" value="Iniciar afiliación">
+                <input class="input-button-1" type="reset" value="Restablecer">
+            </form>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
